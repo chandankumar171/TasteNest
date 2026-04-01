@@ -101,6 +101,10 @@ export default function Reservation() {
                 type="date"
                 placeholder="Date"
                 value={form.date}
+                onFocus={(e) => (e.target.type = "date")}
+  onBlur={(e) => {
+    if (!e.target.value) e.target.type = "text";
+  }}
                 onChange={handle}
                 // className="border border-gray-200 rounded px-4 py-3 text-sm outline-none focus:border-primary"
                 className="w-full border border-gray-300 rounded-md px-4 py-3 text-sm bg-transparent outline-none focus:border-red-400 transition"
@@ -110,6 +114,10 @@ export default function Reservation() {
                 type="time"
                 placeholder="Time"
                 value={form.time}
+                onFocus={(e) => (e.target.type = "time")}
+  onBlur={(e) => {
+    if (!e.target.value) e.target.type = "text";
+  }}
                 onChange={handle}
                 // className="border border-gray-200 rounded px-4 py-3 text-sm outline-none focus:border-primary"
                 className="w-full border border-gray-300 rounded-md px-4 py-3 text-sm bg-transparent outline-none focus:border-red-400 transition"

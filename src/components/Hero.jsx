@@ -69,6 +69,10 @@ text-[24px] sm:text-[30px] md:text-[36px] lg:text-[44px] font-semibold">
           type="date"
           placeholder="Date"
           value={date}
+          onFocus={(e) => (e.target.type = "date")}
+  onBlur={(e) => {
+    if (!e.target.value) e.target.type = "text";
+  }}
           onChange={(e) => setDate(e.target.value)}
           className="bg-white border border-gray-200 rounded-lg px-4 py-3 text-sm"
         />
@@ -76,6 +80,10 @@ text-[24px] sm:text-[30px] md:text-[36px] lg:text-[44px] font-semibold">
           type="time"
           placeholder="Time"
           value={time}
+          onFocus={(e) => (e.target.type = "time")}
+  onBlur={(e) => {
+    if (!e.target.value) e.target.type = "text";
+  }}
           onChange={(e) => setTime(e.target.value)}
           className="bg-white border border-gray-200 rounded-lg px-4 py-3 text-sm"
         />
