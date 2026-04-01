@@ -95,5 +95,5 @@ npm run build
 
 - **Menu items** → edit `src/data/menuData.js`
 - **Colors** → edit `tailwind.config.js` and `src/index.css`
-- **Images** → swap Unsplash URLs in each component with your own
+- **Images** → swap src/assets
 - **Fonts** → change Google Fonts link in `public/index.html` and update `tailwind.config.js`
