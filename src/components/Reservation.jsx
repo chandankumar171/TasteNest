@@ -99,6 +99,7 @@ export default function Reservation() {
               <input
                 name="date"
                 type="date"
+                placeholder="Date"
                 value={form.date}
                 onChange={handle}
                 // className="border border-gray-200 rounded px-4 py-3 text-sm outline-none focus:border-primary"
@@ -107,6 +108,7 @@ export default function Reservation() {
               <input
                 name="time"
                 type="time"
+                placeholder="Time"
                 value={form.time}
                 onChange={handle}
                 // className="border border-gray-200 rounded px-4 py-3 text-sm outline-none focus:border-primary"

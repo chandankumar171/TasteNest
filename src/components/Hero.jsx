@@ -67,12 +67,14 @@ text-[24px] sm:text-[30px] md:text-[36px] lg:text-[44px] font-semibold">
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
         <input
           type="date"
+          placeholder="Date"
           value={date}
           onChange={(e) => setDate(e.target.value)}
           className="bg-white border border-gray-200 rounded-lg px-4 py-3 text-sm"
         />
         <input
           type="time"
+          placeholder="Time"
           value={time}
           onChange={(e) => setTime(e.target.value)}
           className="bg-white border border-gray-200 rounded-lg px-4 py-3 text-sm"
