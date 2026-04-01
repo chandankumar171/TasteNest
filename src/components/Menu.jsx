@@ -1,4 +1,4 @@
-import { menuData, services } from "../data/menuData";
+import { menuData } from "../data/menuData";
 import service1 from "../assets/service1.png";
 import service2 from "../assets/service2.png";
 import service3 from "../assets/service3.png";

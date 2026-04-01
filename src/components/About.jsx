@@ -150,12 +150,12 @@ const About = () => {
 
         <div className="flex flex-wrap justify-center gap-6 items-center">
 
-          <img src={logo1} className="h-20" />
-          <img src={logo2} className="h-20" />
-          <img src={logo3} className="h-20" />
-          <img src={logo4} className="h-20" />
-          <img src={logo5} className="h-20" />
-          <img src={logo6} className="h-20" />
+          <img src={logo1} alt="img1" className="h-20" />
+          <img src={logo2} alt="img2" className="h-20" />
+          <img src={logo3} alt="img3" className="h-20" />
+          <img src={logo4} alt="img4" className="h-20" />
+          <img src={logo5} alt="img5" className="h-20" />
+          <img src={logo6} alt="img6" className="h-20" />
 
         </div>
       </div>
