@@ -13,10 +13,11 @@ import logo6 from "../assets/logo6.png";
 
 const About = () => {
   return (
-    <section className="bg-[#ffffff] py-16 md:py-20 px-6 md:px-16 mt-0">
+    <section className="bg-[#ffffff] py-16 md:py-20 px-6 md:px-10 lg:px-16 mt-0">
 <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
       {/* TOP SECTION */}
-      <div className="grid md:grid-cols-3 gap-10 items-center">
+      {/* <div className="grid md:grid-cols-3 gap-10 items-center"> */}
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 items-center">
 
         {/* Left Image */}
         <div className="flex justify-center">
@@ -28,7 +29,8 @@ const About = () => {
 </div>
 
         {/* Center Content */}
-        <div className="text-center">
+        {/* <div className="text-center"> */}
+        <div className="text-center md:text-left">
           <p className="text-red-500 text-sm font-semibold mb-2"><b>
             WELCOME TO FOODIO
             </b>
@@ -54,37 +56,46 @@ const About = () => {
         </div>
 
         {/* Right Image + Badge */}
-        <div className="relative flex flex-col items-center justify-center">
-
+          {/* <div className="relative flex flex-col items-center justify-center ">      */}
+          <div className="flex flex-col items-center justify-center w-full md:col-span-2 lg:col-span-1"> 
+         
+          {/* <div className="flex justify-center"> */}
+          {/* <div className="flex justify-center w-full"> */}
+          {/* <div className="flex flex-col md:flex-row items-center justify-center gap-18 w-full"> */}
+          <div className="flex flex-col md:flex-row items-center md:justify-between justify-center gap-8 w-full md:px-20 lg:justify-center lg:gap-8 lg:px-0">
           <img
             src={person}
             alt="person"
             className="w-[240px] h-[160px] object-cover rounded-[100px] shadow-lg mb-8"
+            
           />
+          
 
           {/* Circle Text Badge with Image Inside */}
-          <div className="relative w-32 h-32 flex items-center justify-center">
+           {/* <div className="relative w-32 h-32 flex items-center justify-center ">  */}
+           <div className="relative w-32 h-32 flex items-center justify-center overflow-visible">
             <img
               src={circleText}
               alt="FOODIO RESTAURANT"
-              className="w-32 h-32 object-contain absolute animate-spin-slow"
+              className="w-32 h-32 object-contain absolute animate-spin-slow z-0"
             />
             <img
               src={dish}
               alt="dish"
-              className="w-24 h-24 object-cover rounded-full shadow-lg relative z-10"
+              className="w-24 h-24 lg:w-20 lg:h-20 object-cover rounded-full shadow-lg relative z-10"
             />
+          </div> 
           </div>
-
-        </div>
       </div>
+      </div>
+
 
       {/* MIDDLE SECTION */}
       <div className="flex flex-col md:flex-row items-center justify-center gap-8 md:gap-12 mt-20">
 
         {/* Left - Heading */}
-        <div className="md:w-1/4 text-center md:text-left ">
-          <h2 className="text-4xl md:text-5xl font-black leading-tight text-gray-900 font-heading">
+        <div className="md:w-1/4 text-center md:text-left  ">
+          <h2 className="text-4xl md:text-3xl font-black leading-tight text-gray-900 font-heading ">
             Good Food <br /> Steak & Great <br /> Restaurant
           </h2>
         </div>

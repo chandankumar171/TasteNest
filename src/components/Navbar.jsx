@@ -14,7 +14,7 @@ function CartIcon() {
   return (
     <button className="relative group">
       {/* Cart container box */}
-      <div className="w-9 h-9 border-2 border-gray-300 rounded-md flex items-center justify-center group-hover:border-red-500 transition-colors duration-200">
+      <div className="w-9 h-9 border-2 border-gray-300 rounded-md flex items-center justify-center group-hover:border-red-500 transition-colors duration-200 ">
         <svg
           width="18"
           height="18"

@@ -18,7 +18,7 @@ export default function Highlight() {
           <p className="text-red-200 text-xs font-bold uppercase tracking-widest mb-3">
             Thanks for Watch Video
           </p>
-          <h2 className="font-heading text-4xl md:text-5xl font-black text-white leading-tight mb-6">
+          <h2 className="font-heading text-4xl md:text-3xl font-black text-white leading-tight mb-6">
             Highlighting Its<br />Unique Features and<br />Experiences
           </h2>
 
