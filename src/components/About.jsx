@@ -62,7 +62,8 @@ const About = () => {
           {/* <div className="flex justify-center"> */}
           {/* <div className="flex justify-center w-full"> */}
           {/* <div className="flex flex-col md:flex-row items-center justify-center gap-18 w-full"> */}
-          <div className="flex flex-col md:flex-row items-center md:justify-between justify-center gap-8 w-full md:px-20 lg:justify-center lg:gap-8 lg:px-0">
+          {/* <div className="flex flex-col md:flex-row items-center md:justify-between justify-center gap-8 w-full md:px-20 lg:justify-center lg:gap-6 lg:px-0"> */}
+          <div className="flex flex-col md:flex-row items-center justify-center gap-10 w-full max-w-[500px] mx-auto">
           <img
             src={person}
             alt="person"
@@ -73,7 +74,8 @@ const About = () => {
 
           {/* Circle Text Badge with Image Inside */}
            {/* <div className="relative w-32 h-32 flex items-center justify-center ">  */}
-           <div className="relative w-32 h-32 flex items-center justify-center overflow-visible">
+           {/* <div className="relative w-32 h-32 flex items-center justify-center overflow-visible"> */}
+           <div className="relative w-32 h-32 flex items-center justify-center shrink-0">
             <img
               src={circleText}
               alt="FOODIO RESTAURANT"
